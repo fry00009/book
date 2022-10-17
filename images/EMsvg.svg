@@ -1,0 +1,14 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 960" style="">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <path class="cls-1 PgMdFWPz_0" d="M346.5,513.5l-11,28s1.24,1.75,16.78,1.5l3.01,13.03s-10.02,2.26-17.04,0l-2.74,13.78-5.53-1-7.52,26.81s-22.05-4.01-42.1-27.57l10.78-8.77s16.04,16.29,21.55,17.29l6.52-12.03s-25.06-11.03-30.32-45.61l-13.78,2.51s0,9.02,7.77,25.81l-12.03,7.3s-25.31-52.16,6.52-91.51,70.42-35.59,77.94-35.34l2-19.55"></path>
+<style data-made-with="vivus-instant">.PgMdFWPz_0{stroke-dasharray:550 552;stroke-dashoffset:551;animation:PgMdFWPz_draw 2000ms linear 0ms forwards;}@keyframes PgMdFWPz_draw{100%{stroke-dashoffset:0;}}@keyframes PgMdFWPz_fade{0%{stroke-opacity:1;}94.44444444444444%{stroke-opacity:1;}100%{stroke-opacity:0;}}</style></svg>

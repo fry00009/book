@@ -1,0 +1,146 @@
+.book {
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+ Height:600px;
+ width:400px;
+ background-color: lightgrey;
+ overflow: hidden;
+}
+
+.Header {
+  position: relative;
+  top:7%;
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+  color:black;
+  font-size:75px;
+  opacity:0%;
+}
+
+#box {
+ width: 400px;
+ height: 600px;
+ position: absolute;
+ left: -7.5%;
+ top: -.3%;
+ transform: scale(.2);
+}
+
+.Maze {
+  position: absolute;
+  top:38%;
+  left:26%;
+  transform: translate(-50%,-50%);
+  transform: scale(.8);
+  /* animation: spin 2s forwards linear;
+  animation-delay:1s; */
+}
+/*
+@keyframes spin {
+    0%      {transform: scale(.8) rotate(0deg);}
+    50%     {transform: scale(.8) rotate(180deg);}
+    100%    {transform: scale(.8) rotate(360deg);}
+} */
+
+
+.Pink {
+  color:#8f2839;
+  animation: slide_right 3s forwards ease-out;
+  animation-delay:1s;
+}
+
+.Pink:hover {
+  color:#27869e;
+}
+
+@keyframes slide_right {
+  0%   {opacity:0%; left:100%;}
+  100% {opacity:100%; left:0%;}
+}
+
+.Black {
+  color: black;
+  animation: slide_left 3s forwards ease-out;
+  animation-delay:1s;
+}
+
+@keyframes slide_left {
+  0%   {opacity:0%;   right:100%;}
+  100% {opacity:100%; right:0%;}
+}
+
+.Author {
+  position: relative;
+  top:53%;
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+  color:black;
+  font-size:30px;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border: 8px solid transparent;
+  border-top: 0;
+  border-bottom: 16px solid #8f2839;;
+  position: absolute;
+  top:39%;
+  left:52%;
+  transform: translate(-50%,-50%);
+  border-radius:50%;
+  z-index:1;
+}
+
+.rocket {
+  animation: rocket 5s forwards;
+}
+
+@keyframes rocket {
+  0%   {transform: scaleX(1.0); transform: scaleY(1.0); top:38%; left:50%;}
+  25%  {transform: scaleX(2.5); transform: scaleY(2.5); top:38%; left:50%;}
+  40%  {transform: scaleX(5.0); transform: scaleY(5.0); top:-10%; left:50%;}
+  50%  {transform: scaleX(5.0); transform: scaleY(5.0); top:-10%; left:150%;}
+  60%  {transform: scaleX(2.5); transform: scaleY(2.5); top:110%; left:150%;}
+  70%  {transform: scaleX(2.5); transform: scaleY(2.5); top:110%; left:50%;}
+  100% {transform: scaleX(1.0); transform: scaleY(1.0); top:38%; left:50%;}
+}
+
+.dot {
+  height:10px;
+  width:10px;
+  background-color:#8f2839;
+  position: absolute;
+  top:54%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  border-radius:50%;
+  z-index:1;
+}
+
+
+.text {
+  position: relative;
+  top:48%;
+  text-align: center;
+  font-family: 'Gudea', sans-serif;
+  font-weight: 300;
+  color:#8f2839;
+  font-size:20px;
+  line-height:25px;
+}
+
+.text:hover {
+  color:#27869e;
+}
+
+.Line {
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
